@@ -1,0 +1,2 @@
+LOAD DATA LOCAL INPATH 'demo_src' INTO TABLE demo_src PARTITION (dt='20200209',hour='06');
+LOAD DATA LOCAL INPATH 'demo_tgt' INTO TABLE demo_tgt PARTITION (dt='20200209',hour='06');
